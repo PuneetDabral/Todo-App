@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# To-Do App
 
-## Getting Started
+## Description  
+A powerful and intuitive To-Do app designed to help you efficiently manage your tasks. With full **CRUD functionality** (Create, Read, Update, Delete), you can easily add, edit, and remove tasks. Each task can have a **due date**, **priority level**, and **status** (e.g., pending, completed) to help you stay organized and on top of your responsibilities.
 
-First, run the development server:
+---
 
+## Table of Contents  
+1. [Installation](#installation)  
+2. [Usage](#usage)  
+3. [Features](#features)  
+
+---
+
+## Installation  
+
+To get started with this project, follow the steps below:  
+
+### 1. Clone the Repository  
+Clone the project to your local machine:  
+```bash
+git clone https://github.com/yourusername/your-nextjs-app.git
+```  
+
+### 2. Navigate to the Project Directory  
+Move into the project directory:  
+```bash
+cd your-nextjs-app
+```  
+
+### 3. Install Dependencies  
+Install the required dependencies using **npm** or **yarn**:  
+```bash
+npm install
+```  
+or  
+```bash
+yarn install
+```  
+
+### 4. Run the Development Server  
+Start the development server:  
 ```bash
 npm run dev
-# or
+```  
+or  
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+```  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Once the app is up and running, you can start managing your tasks efficiently. Here’s how you can use the app:  
 
-## Learn More
+- **Add env file**: Environment variable file for db connection & jwt token verification.
+- **Create New Tasks**: Add new tasks by specifying the title, due date, priority, and status.  
+- **Edit Tasks**: Modify existing tasks to update their title, due date, priority, or status.  
+- **Delete Tasks**: Remove tasks you no longer need directly from the task list.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### User Authentication  
+- **Secure Login**: Utilizes **JWT (JSON Web Token)** for secure user authentication. Upon successful login, a JWT token is issued to authenticate the user for subsequent requests.  
 
-## Deploy on Vercel
+### Dashboard Overview  
+- **Total Tasks**: View the total number of tasks you have.  
+- **Priority-based Tasks**: See tasks grouped by their priority levels.  
+- **Status-based Tasks**: Organize tasks by their current status (e.g., Pending, In Progress, Completed).  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Home Page Task Management  
+- **Task List**: View all your tasks in one place.  
+- **Create New Tasks**: Easily add new tasks with detailed information.  
+- **Edit Tasks**: Update task details as needed.  
+- **Delete Tasks**: Remove tasks that are no longer required.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Dark Mode  
+- **Toggle Dark Mode**: Switch between light and dark themes for a comfortable viewing experience in any lighting condition.  
+
+---
