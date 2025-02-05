@@ -74,10 +74,7 @@ Once the app is up and running, you can start managing your tasks efficiently. H
 ### Home Page Task Management  
 - **Task List**: View all your tasks in one place.  
 - **Create New Tasks**: Easily add new tasks with detailed information.  
-- **Edit Tasks**: Update task d
-
-
-etails as needed.  
+- **Edit Tasks**: Update task details as needed.  
 - **Delete Tasks**: Remove tasks that are no longer required.  
 
 ### Dark Mode  
