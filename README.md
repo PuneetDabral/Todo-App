@@ -19,7 +19,7 @@ To get started with this project, follow the steps below:
 ### 1. Clone the Repository  
 Clone the project to your local machine:  
 ```bash
-git clone https://github.com/yourusername/your-nextjs-app.git
+git clone https://github.com/PuneetDabral/Todo-App.git
 ```  
 
 ### 2. Navigate to the Project Directory  
@@ -78,6 +78,8 @@ Once the app is up and running, you can start managing your tasks efficiently. H
 - **Delete Tasks**: Remove tasks that are no longer required.  
 
 ### Dark Mode  
-- **Toggle Dark Mode**: Switch between light and dark themes for a comfortable viewing experience in any lighting condition.  
+- **Toggle Dark Mode**: Switch between light and dark themes for a comfortable viewing experience in any lighting condition. 
 
+### Demo Video Link
+https://drive.google.com/file/d/1ftD_Juh2r1TT9AGtRcyITHrUTxVKxWIo/view?usp=sharing
 ---
